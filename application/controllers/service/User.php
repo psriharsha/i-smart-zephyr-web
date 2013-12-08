@@ -7,9 +7,7 @@ class User extends CI_Controller {
 		$data['userName'] = $this->input->post('user');
 		$data['passWord'] = md5($this->input->post('pass'));
 		$result = $this->usermodel->authenticate($data);
-		if($result)
-		echo "Success";
-		else echo "Failure";
+		echo $result;
 	}
 
 	public function test()
@@ -34,6 +32,12 @@ class User extends CI_Controller {
 		echo "Success";
 		else
 		echo "Failure";
+	}
+	
+	public function getDetails(){
+		$data['uId'] = $this->input->post('uId');
+		$result = $this->usermodel->getMyDetails($data);
+		echo json_encode($result);
 	}
 }
 
