@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `zephyr`
 --
+DROP DATABASE `zephyr`;
+
 CREATE DATABASE IF NOT EXISTS `zephyr` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `zephyr`;
 
