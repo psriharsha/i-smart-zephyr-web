@@ -13,7 +13,7 @@ class User extends CI_Controller {
 	public function test()
 	{
 		$data = array(
-				'text' => 'My title' ,
+				'text' => $this->input->post('text') ,
 		);
 		$this->db->insert('test',$data);
 		echo "OK";
