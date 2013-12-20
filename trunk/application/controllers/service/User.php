@@ -21,13 +21,14 @@ class User extends CI_Controller {
 
 	public function insertVitals()
 	{
-		$hr = $this->input->post('hr');
-		$rr = $this->input->post('rr');
-		$st = $this->input->post('st');
-		$po = $this->input->post('po');
-		$pa = $this->input->post('pa');
-		$ts = $this->input->post('ts');
-		$result = $this->vitalsmodel->putVitals($hr,$rr,$st,$po,$pa,$ts);
+		$data['uId'] = $this->input->post('uId');
+		$data['heartRate'] = $this->input->post('hr');
+		$data['respRate'] = $this->input->post('rr');
+		$data['temp'] = $this->input->post('st');
+		$data['posture'] = $this->input->post('po');
+		$data['acceleration'] = $this->input->post('pa');
+		$data['stampTime'] = $this->input->post('ts');
+		$result = $this->vitalsmodel->putVitals($data);
 		if($result == 1)
 		echo "Success";
 		else
