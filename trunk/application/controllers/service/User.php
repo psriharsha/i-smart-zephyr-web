@@ -21,7 +21,7 @@ class User extends CI_Controller {
 
 	public function insertVitals()
 	{
-		$data['uId'] = $this->input->post('uId');
+		//$data['uId'] = $this->input->post('uId');
 		$data['heartRate'] = $this->input->post('hr');
 		$data['respRate'] = $this->input->post('rr');
 		$data['temp'] = $this->input->post('st');
