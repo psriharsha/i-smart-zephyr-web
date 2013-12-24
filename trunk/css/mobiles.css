@@ -1,0 +1,27 @@
+#headContent{
+	width: 96%;
+}
+
+#topMenu{
+	display: block;
+	cursor: pointer;
+}
+
+#topSettings ul{
+	position: absolute;
+	top: 53px;
+	right: 25px;
+	margin: 0px;
+	z-index: 650;
+	background: #ffffff;
+	display: none;
+	box-shadow: 0px 2px 2px 2px #d2d2d2;
+}
+
+#topSettings ul li{
+	margin-left: -40px;
+	display: block;
+	list-style-position: outside;
+	padding: 10px 65px 10px 25px;
+	border-bottom: solid 1px #e7ece6;
+}
