@@ -2,7 +2,9 @@
 <div id="invisible"></div>
 <div id="header">
 	<div id="headContent">
-		<img src = "<?php echo base_url()?>images/head.png" id="headLogo">
+		<div id="mainLogo">
+			<img src = "<?php echo base_url()?>images/head.png" id="headLogo">
+		</div>
 		<div  id="topSettings">
 			<img src="<?php echo base_url()?>images/settings.png" id="topMenu">
 			<ul>		

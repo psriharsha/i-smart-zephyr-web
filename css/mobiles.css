@@ -2,6 +2,15 @@
 	width: 96%;
 }
 
+#banner{
+	display: none;
+}
+
+#menuBg{
+	padding-top: 55px;
+	height: auto;
+}
+
 #topMenu{
 	display: block;
 	cursor: pointer;

@@ -7,5 +7,6 @@
 <script type="text/javascript" src="<?php echo base_url()?>js/script.js"></script>
 <link href='http://fonts.googleapis.com/css?family=roboto|Libre+Baskerville' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<?php echo base_url()?>css/style.css" />
-<link rel="stylesheet" href="<?php echo base_url()?>css/mobiles.css" media="(min-width: 320px) and (max-width: 950px)" />
+<link rel="stylesheet" href="<?php echo base_url()?>css/tablets.css" media="(min-width: 601px) and (max-width: 950px)" />
+<link rel="stylesheet" href="<?php echo base_url()?>css/mobiles.css" media="(min-width: 320px) and (max-width: 600px)" />
 </head>

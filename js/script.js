@@ -3,8 +3,7 @@ $( document ).ready(function() {
 	$('#invisible').hide();
 	
 $('#invisible').click(function(){
-	$('#topSettings ul').fadeOut();
-	$('#invisible').fadeOut();
+	closeMenu();
 });
 	
 $('#topMenu').click(function(){
@@ -14,9 +13,17 @@ $('#topMenu').click(function(){
 
 $(window).resize(function(){  
     var w = $(window).width();  
-    if(w > 950 && $('#topSettings ul').is(':hidden')) {  
+    if(w > 600 && $('#topSettings ul').is(':hidden')) {  
     	$('#topSettings ul').removeAttr('style');
     }
+    else if(w<=950 && $('#topSettings ul').is(':hidden')){
+    	closeMenu();
+    }
 });
+
+function closeMenu(){
+	$('#topSettings ul').fadeOut();
+	$('#invisible').fadeOut();
+}
 
 });
