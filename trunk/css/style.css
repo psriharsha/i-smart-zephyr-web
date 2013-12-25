@@ -47,11 +47,38 @@ body{
 	font-size: 15px;
 }
 
-#topSettings ul li:not(:last-child){	
-	border-right: solid 1px #e7ece6;
-}
-
 #topMenu{
 	float:right;
 	display: none;
+}
+
+#content{
+	
+}
+
+#banner{
+	padding-top: 55px;
+	position: static;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner img{
+	width: 100%;
+}
+
+#menuBg{	
+	font-family: 'Libre Baskerville', serif;
+	border-top: solid 2px #c3c5c2;
+	border-bottom: solid 2px #c3c5c2;
+	background: #d7dcd6;
+	height: 50px;
+	width: 100%;
+}
+
+#menu{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
 }
