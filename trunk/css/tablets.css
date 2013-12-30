@@ -5,3 +5,19 @@
 #banner{
 	width: 96%;
 }
+
+#menu{
+	width: 96%;
+}
+
+#menu ul li{
+	padding: 0px 10px 0px 10px;
+}
+
+#content{
+	width: 96%;
+}
+
+#horiMenu{
+	display: none;
+}

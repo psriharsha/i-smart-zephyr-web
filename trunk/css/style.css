@@ -52,14 +52,10 @@ body{
 	display: none;
 }
 
-#content{
-	
-}
-
 #banner{
 	padding-top: 55px;
 	position: static;
-	width: 950px;
+	width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -70,6 +66,7 @@ body{
 
 #menuBg{	
 	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
 	border-top: solid 2px #c3c5c2;
 	border-bottom: solid 2px #c3c5c2;
 	background: #d7dcd6;
@@ -80,5 +77,79 @@ body{
 #menu{
 	margin-left: auto;
 	margin-right: auto;
-	width: 950px;
+	width: 920px;
+}
+
+#menuHolder{
+	display: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#menu ul{
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#menu ul li{
+	display: inline;
+	padding: 0px 15px 0px 15px;
+}
+
+#content{
+	background: #ffffff;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#horiMenu{
+	width: 250px;
+}
+
+#horiMenu ul{
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 20px;
+	margin-top: 0px;
+}
+
+#horiMenu ul li{
+	display: block;
+	padding: 15px 20px 15px 20px;
+	font-family: 'Libre Baskerville', serif;	
+	border-bottom: dotted 1px #c3c5c2;
+	/*border-left: solid 1px #c3c5c2;*/
+	border-right: solid 1px #c3c5c2;
+	font-weight: bold;
+}
+
+.horiMenuCont{
+	padding: 10px;
+	border-bottom: dotted 1px;
+}
+
+.horiMenuCont ul{
+	padding-left: 0px;
+}
+
+.fixed{
+	position: fixed;
+	top: 50px;
+}
+
+.horiMenuCont ul li{
+	font-family: 'Cardo', serif;
+	font-stretch: ultra-expanded;
+	display: block;
+	background-image: url("../images/listCircle.png");
+	background-repeat: no-repeat;
+	padding: 5px 0px 5px 60px;
+}
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	font-size: 18px;
 }
