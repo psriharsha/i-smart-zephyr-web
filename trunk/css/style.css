@@ -43,7 +43,7 @@ body{
 	display: inline;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Quando', serif;
 	font-size: 15px;
 }
 
@@ -65,18 +65,18 @@ body{
 }
 
 #menuBg{	
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Quando', serif;
 	font-weight: bold;
 	border-top: solid 2px #c3c5c2;
 	border-bottom: solid 2px #c3c5c2;
 	background: #d7dcd6;
 	height: 50px;
-	width: 100%;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #menu{
-	margin-left: auto;
-	margin-right: auto;
 	width: 920px;
 }
 
@@ -118,11 +118,10 @@ body{
 #horiMenu ul li{
 	display: block;
 	padding: 15px 20px 15px 20px;
-	font-family: 'Libre Baskerville', serif;	
+	font-family: 'Quando', serif;	
 	border-bottom: dotted 1px #c3c5c2;
 	/*border-left: solid 1px #c3c5c2;*/
 	border-right: solid 1px #c3c5c2;
-	font-weight: bold;
 }
 
 .horiMenuCont{
@@ -149,7 +148,6 @@ body{
 }
 
 h1{
-	font-family: 'Libre Baskerville', serif;
-	font-weight: bold;
+	font-family: 'Quando', serif;
 	font-size: 18px;
 }

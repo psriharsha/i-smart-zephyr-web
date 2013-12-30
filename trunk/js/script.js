@@ -29,14 +29,14 @@ $(window).resize(function(){
     }
 });
 
-$(window).bind('scroll', function() {
+/*$(window).bind('scroll', function() {
     if ($(window).scrollTop() > 300) {
         $('#menuBg').addClass('fixed');
     }
     else {
         $('#menuBg').removeClass('fixed');
     }
-});
+});*/
 
 function closeMenu(){
 	$('#topSettings ul').fadeOut();
