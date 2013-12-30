@@ -34,3 +34,35 @@
 	padding: 10px 65px 10px 25px;
 	border-bottom: solid 1px #e7ece6;
 }
+
+#menuHolder{
+	display: block;
+}
+
+#menu{
+	width: 85%;
+}
+
+#menu ul{
+	display: none;
+}
+
+#menu ul li{
+	display: block;
+	padding: 10px 0px 10px 0px;
+	border-top: dotted 1px;
+	text-align: center;
+}
+
+.fixed{
+	position: fixed;
+	top: 0px;
+}
+
+#content{
+	width: 98%;
+}
+
+#horiMenu{
+	display: none;
+}
