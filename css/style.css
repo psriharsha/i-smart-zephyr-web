@@ -69,7 +69,7 @@ body{
 	font-weight: bold;
 	border-top: solid 2px #c3c5c2;
 	border-bottom: solid 2px #c3c5c2;
-	background: #d7dcd6;
+	background: #383838;
 	height: 50px;
 	width: 920px;
 	margin-left: auto;
@@ -95,6 +95,7 @@ body{
 #menu ul li{
 	display: inline;
 	padding: 0px 15px 0px 15px;
+	color: #ffffff;
 }
 
 #content{
